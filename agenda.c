@@ -153,7 +153,7 @@ void delnum (struct nodo* ptrRef, char* numsearch,char* numsave){
 			}
 		}
 		else{ 
-			printf("No se elimina ni a putazos\n");
+			printf("el dato no esta en la estructura\n");
 			return;
 		}
 	}
